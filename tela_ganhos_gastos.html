@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Área de vendas</title>
+        <title>Cadastro do menu</title>
         <meta charset="UTF-8">
     </head>
     <body>
@@ -13,14 +13,18 @@
         </header>
         <main>
             <h1>
-                Área de vendas
+                Ganhos e gastos:
             </h1>
 
-            <ul>
-                <li><a href="tela_cadastrar_menu.html">Cadastrar Menu</a></li>
-                <li><a href="tela_menu_de_vendas.html">Menu de vendas</a></li>
-                <li>Retrospectiva de vendas</li>
-            </ul>
+            <form>
+                <label for="valor">Valor:</label>
+                <input type="number" id="valor" name="valor"><br><br>
+        
+                <label for="descricao">DESCRIÇAO:</label>
+                <input type="text" id="descricao" name="descricao"><br><br>
+        
+                <input type="submit" value="Cadastrar">
+            </form>
 
             <footer>
                 <a href="tela_principal.html"><img src="img/botao-home.png" alt="Botão home"></a>
