@@ -7,9 +7,13 @@ body {
     height: 100%;
     width: 100%;
     flex-direction: column;
+    
 }
 
 header {
+    background-color:beige;
+    color: coral;
+    font-style:oblique;
     display: flex;
     height: 3rem;
     position: relative;
@@ -31,13 +35,38 @@ header {
 
 h1 {
     font-size: 2rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    font-size: 1.6rem;
+    padding: 1.4rem 2rem 1.5rem 1rem;
+}
+
+.subtitulo {
+    text-decoration: underline 0.1rem;
 }
 
 .rodape {
     height: 4rem;
     width: 4rem;
+
 }
 
 .grafico {
-    height: 3rem;
+    height: 7rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    bottom: 0;
+    padding-top: .8rem;
+    border-top: .3rem solid black;
 }
