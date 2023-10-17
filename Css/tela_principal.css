@@ -10,8 +10,9 @@ body {
 }
 
 header {
+    background-color:rgb(169, 231, 169); 
     display: flex;
-    height: 3rem;
+    height: 4rem;
     position: relative;
     top: 0;
     left: 0;
@@ -25,8 +26,16 @@ header {
     position: absolute;
     top: 0;
     right: 0;
-    height: 3rem;
-    width: 3rem;
+    padding: .4rem;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.subtitulo{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline .1rem;
 }
 
 h1 {
@@ -36,7 +45,7 @@ h1 {
 footer {
     height: 4rem;
     width: 100%;
-    background-color: #6b6969; 
+    background-color:rgb(169, 231, 169); 
     position: fixed;
     bottom: 0;
     left: 0;
@@ -45,11 +54,20 @@ footer {
     align-items: center;
 }
 
+ul{
+    font-size: 1.8rem;
+    padding-left: 1.6rem;
+    padding-bottom: 2rem;
+
+}
 .rodape {
     width: 3rem;
     height: 3rem;
 }
 
 .grafico {
-    height: 3rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
