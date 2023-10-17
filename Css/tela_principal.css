@@ -32,3 +32,12 @@ header {
 h1 {
     font-size: 2rem;
 }
+
+.rodape {
+    height: 4rem;
+    width: 4rem;
+}
+
+.grafico {
+    height: 3rem;
+}
