@@ -4,8 +4,8 @@
         <title>Cadastro do menu</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Css/reset.css">
-        <link rel="stylesheet" href="Css/tela_ganhos_gastos.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/tela_ganhos_e_gastos.css">
     </head>
     <body>
         <header>
@@ -15,30 +15,32 @@
             </h1>
         </header>
         <main>
-            <h1 class = 'title'>
+            <a href="tela_cash.html" class="voltar"><img src="img/botao-voltar (1).png" alt="Botão de voltar"></a>
+
+            <h1 class = "subtitulo">
                 Ganhos e gastos:
             </h1>
 
             <form class="meio">
                 <ul>
-                <li><label class="pergunta" for="valor">Valor:</label>
-                <input class="input" type="number" id="valor" name="valor"><br><br></li>
+                <li><label for="valor">Valor (R$):</label>
+                <input class="digitar" type="number" id="valor" name="valor"></li>
                 </ul>
                 <ul>
-                <li><label class="pergunta" for="descricao">Descrição:</label>
-                <input class="input" type="text" id="descricao" name="descricao"><br><br></li>
+                <li><label for="descricao">Descrição:</label>
+                <input class="digitar" type="text" id="descricao" name="descricao"></li>
                 </ul>
                 <input class="cadastrar" type="submit" value="Cadastrar">
-
             </form>
-
-            <footer>
-                <a href="tela_principal.html"><img src="img/botao-home.png" alt="Botão home" class="rodape"></a>
-                <a href="tela_area_de_vendas.html"><img src="img/escrita.png" alt="Botão da área de vendas" class="rodape"></a>
-                <a href="tela_cash.html"><img src="img/cash.png" alt="Botão de finanças" class="rodape"></a>
-                <a href="tela_informativo.html" ><img src="img/ponto-de-exclamacao.png" alt="Botão do informativo" class="rodape"></a>
-                <a href='tela_extra_config.html' ><img src="img/engenharia.png" alt="Botão de configurções" class="rodape"></a>
-            </footer>
         </main>
+
+        <footer>
+            <a href="tela_principal.html"><img src="img/botao-home.png" alt="Botão home" class="rodape"></a>
+            <a href="tela_area_de_vendas.html"><img src="img/escrita.png" alt="Botão da área de vendas" class="rodape"></a>
+            <a href="tela_cash.html"><img src="img/cash.png" alt="Botão de finanças" class="rodape"></a>
+            <a href="tela_informativo.html" ><img src="img/ponto-de-exclamacao.png" alt="Botão do informativo" class="rodape"></a>
+            <a href='tela_extra_config.html' ><img src="img/engenharia.png" alt="Botão de configurções" class="rodape"></a>
+        </footer>
+        
     </body>
 </html>
