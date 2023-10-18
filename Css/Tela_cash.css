@@ -32,18 +32,47 @@ header {
 }
 
 main {
-    padding : 5rem
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 4rem;
+    flex-direction: column;
+    align-items: center;
 }
 
 .subtitulo{
-    padding: 3rem;
     display: flex;
     justify-content: center;
     text-decoration: underline .1rem;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    width: 80%;
 }
 
 h1 {
     font-size: 2rem;
+}
+
+.linque {
+    display: flex;
+    padding: 1rem;
+    border: .1rem solid black;
+    height: 15%;
+    border-radius: 1rem;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
 }
 
 footer {
@@ -59,22 +88,9 @@ footer {
     border-top: .1rem solid black;
 }
 
-ul{
-    font-size: 1.8rem;
-    padding-left: 1.6rem;
-    padding-bottom: 2rem;
-
-}
 
 .rodape {
     width: 3rem;
     height: 3rem;
 }
 
-.linque {
-    height: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 0.5rem;
-}
