@@ -4,8 +4,8 @@
         <title>Cadastro do menu</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Css/reset.css">
-        <link rel="stylesheet" href="Css/tela_cadastrar_menu.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/tela_cadastrar_menu.css">
     </head>
     <body>
         <header>
@@ -15,30 +15,35 @@
             </h1>
         </header>
         <main>
-            <h1 class="titulo_menu">
+            <h1 class="subtitulo">
                 Cadastrar menu
             </h1>
 
-            <form>
-                <label for="item1">ITEM:</label>
-                <input type="text" id="item1" name="item1"><br><br>
-        
+            <section>
+                <label for="item1">Item:</label>
+                <input type="text" id="item1" name="item1" class="digitar"><br><br>
+            </section>
+            
+            <section>
                 <label for="preco">Preço:</label>
-                <input type="number" id="preco" name="preco"><br><br>
-        
+                <input type="number" id="preco" name="preco" class="digitar"><br><br>
+            </section>
+            
+            <section>
                 <label for="lucroitem">Lucro por venda:</label>
-                <input type="number" id="lucroitem" name="idade"><br><br>
-        
-                <input type="submit" value="Cadastrar">
-            </form>
+                <input type="number" id="lucroitem" name="idade" class="digitar"><br><br>
+            </section>
 
-            <footer>
-                <a href="tela_principal.html"><img src="img/botao-home.png" alt="Botão home" class="rodape"></a>
-                <a href="tela_area_de_vendas.html"><img src="img/escrita.png" alt="Botão da área de vendas" class="rodape"></a>
-                <a href="tela_cash.html"><img src="img/cash.png" alt="Botão de finanças" class="rodape"></a>
-                <a href="tela_informativo.html" ><img src="img/ponto-de-exclamacao.png" alt="Botão do informativo" class="rodape"></a>
-                <a href='tela_extra_config.html' ><img src="img/engenharia.png" alt="Botão de configurções" class="rodape"></a>
-            </footer>
+            <input type="submit" value="Cadastrar" class="cadastrar">
         </main>
+
+        <footer>
+            <a href="tela_principal.html"><img src="img/botao-home.png" alt="Botão home" class="rodape"></a>
+            <a href="tela_area_de_vendas.html"><img src="img/escrita.png" alt="Botão da área de vendas" class="rodape"></a>
+            <a href="tela_cash.html"><img src="img/cash.png" alt="Botão de finanças" class="rodape"></a>
+            <a href="tela_informativo.html" ><img src="img/ponto-de-exclamacao.png" alt="Botão do informativo" class="rodape"></a>
+            <a href='tela_extra_config.html' ><img src="img/engenharia.png" alt="Botão de configurções" class="rodape"></a>
+        </footer>
+        
     </body>
 </html>
