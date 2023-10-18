@@ -32,7 +32,7 @@ header {
 }
 
 .subtitulo{
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     text-decoration: underline .1rem;
@@ -52,24 +52,22 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top: .1rem solid black;
 }
 
 ul{
     font-size: 1.8rem;
-    padding-left: 1.6rem;
-    padding-bottom: 2rem;
+    padding: 1.6rem 0 1.4rem 1.6rem;
 
 }
-
 .rodape {
     width: 3rem;
     height: 3rem;
 }
 
-.linque {
-    height: 4rem;
+.grafico {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 0.5rem;
+    align-items: center;
 }
