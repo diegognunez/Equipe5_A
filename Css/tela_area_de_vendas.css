@@ -1,26 +1,67 @@
-header{ 
+html {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-}
-.perfil{
-    width: 5%
-}
-h1{
-    align-self: end;
 }
 
-footer {
+body {
     display: flex;
-    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    height: 3rem;
+    position: relative;
+    top: 0;
+    left: 0;
     justify-content: center;
     align-items: center;
+    border-bottom: .1rem solid black;
 }
-  
-a {
-    margin: 1rem; /* Adicionar margem para espaçamento entre os botões */
-  }
-  
-img {
-    width: 100px;
-  }
+
+.usuario {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 3rem;
+    width: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    height: 34rem;
+}
+.titulo{
+    text-decoration: underline;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+li{
+    padding: 1rem;
+}
+footer {
+    height: 4rem;
+    width: 100%;
+    background-color: #6b6969; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape {
+    width: 3rem;
+    height: 3rem;
+}
