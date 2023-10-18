@@ -32,7 +32,7 @@ header {
 }
 
 .subtitulo{
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     text-decoration: underline .1rem;
@@ -52,12 +52,12 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top: .1rem solid black;
 }
 
 ul{
     font-size: 1.8rem;
-    padding-left: 1.6rem;
-    padding-bottom: 2rem;
+    padding: 1.6rem 0 1.4rem 1.6rem;
 
 }
 .rodape {
@@ -66,8 +66,27 @@ ul{
 }
 
 .grafico {
-    height: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.barra {
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+    left: 30%;
+}
+
+.pizza {
+    height: 9rem;
+    width: 18rem;
+    position: relative;
+    left: 10%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
