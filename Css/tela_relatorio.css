@@ -38,6 +38,14 @@ header {
     text-decoration: underline .1rem;
 }
 
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 h1 {
     font-size: 2rem;
 }
@@ -70,12 +78,18 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 8rem;
+    height: 8rem;
+    padding: 4rem;
 }
 .listalinha{
     left: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 0.1rem solid black
-
+    border: 0.1rem solid black;
+    padding: 1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    
 }
