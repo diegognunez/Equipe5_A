@@ -21,7 +21,6 @@ header {
     border-bottom: .1rem solid black;
 }
 
-
 .usuario {
     display: flex;
     position: absolute;
@@ -32,36 +31,10 @@ header {
     width: 3.5rem;
 }
 
+
 h1 {
     font-size: 2rem;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    position: absolute;
-    top: 10%;
-    height: 80%;
-    width: 100%;
-}
-
-.informativo {
-    text-decoration: underline .1rem;
-}
-.search {
-    font-size: 2rem;
-}
-
-input {
-    width: 80%;
-    height: 6%;
-}
-
-label {
-    font-size: 2rem;
+    max-width: 200%;
 }
 
 footer {
@@ -80,4 +53,37 @@ footer {
 .rodape {
     width: 3rem;
     height: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0.1rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding : 5rem;
+}
+
+.title {
+    display: inline;
+    white-space: nowrap;
+    padding : 1rem;
 }
