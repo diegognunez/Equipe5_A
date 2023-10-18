@@ -31,12 +31,8 @@ header {
     width: 3.5rem;
 }
 
-main {
-    padding : 5rem
-}
-
 .subtitulo{
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     text-decoration: underline .1rem;
@@ -61,20 +57,23 @@ footer {
 
 ul{
     font-size: 1.8rem;
-    padding-left: 1.6rem;
-    padding-bottom: 2rem;
+    padding: 1.6rem 0 1.4rem 1.6rem;
 
 }
-
 .rodape {
     width: 3rem;
     height: 3rem;
 }
 
-.linque {
-    height: 4rem;
+.listaitems{
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-bottom: 0.5rem;
+    align-items: center;
+}
+.item{
+    border: .1rem solid black;
+    padding: 8%;
+    font-size: 2rem;
+    margin-top: 0.7rem;
 }

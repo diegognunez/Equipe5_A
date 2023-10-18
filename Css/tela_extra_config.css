@@ -1,12 +1,23 @@
-html {
-    display: flex;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
 }
 
 body {
     display: flex;
-    height: 100%;
     width: 100%;
     flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 4rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 header {
@@ -31,19 +42,19 @@ header {
     width: 3.5rem;
 }
 
-main {
-    padding : 5rem
-}
-
-.subtitulo{
-    padding: 3rem;
+form {
+    height: 50%;
+    width: 80%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-decoration: underline .1rem;
 }
 
-h1 {
-    font-size: 2rem;
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -59,22 +70,11 @@ footer {
     border-top: .1rem solid black;
 }
 
-ul{
-    font-size: 1.8rem;
-    padding-left: 1.6rem;
-    padding-bottom: 2rem;
-
-}
-
 .rodape {
     width: 3rem;
     height: 3rem;
 }
 
-.linque {
-    height: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 0.5rem;
+h1  {
+    font-size: 2rem;
 }
