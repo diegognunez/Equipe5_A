@@ -55,9 +55,17 @@ a {
 }
 
 .login {
-    background-color:rgb(169, 231, 169);
+    background-color: rgb(129, 250, 108);
 }
 
 .criar_conta{
-    background-color:rgb(84, 249, 100);
+    background-color:rgb(255, 74, 74);
+}
+
+.finance{
+    color: rgb(71, 184, 52);
+}
+
+.chef {
+    color: rgb(255, 0, 0);
 }
