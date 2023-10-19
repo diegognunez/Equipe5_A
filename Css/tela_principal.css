@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color:rgb(169, 231, 169); 
+    background-color:rgb(169, 231, 169);
     display: flex;
     height: 4rem;
     position: relative;
