@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -39,6 +41,7 @@ header {
     display: flex;
     justify-content: center;
     font-weight: bold;
+    font-family: 'Noticia Text', serif;
 }
 
 
@@ -54,7 +57,7 @@ main {
 
 h1 {
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: 'Mitr', sans-serif;
 }
 
 footer {
@@ -98,7 +101,8 @@ ul{
     padding: 1rem;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
-    
+    font-family: 'Noticia Text', serif;
+    font-size: 1.4rem;
 }
 
 .voltar {

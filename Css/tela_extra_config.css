@@ -87,3 +87,12 @@ h1  {
     font-family: 'Noticia Text', serif;
     font-weight: bold;
 }
+
+label {
+    font-family: 'Noticia Text', serif;
+    margin-bottom: .2rem;
+}
+
+.cadastrar_ {
+    font-family: 'Noticia Text', serif;
+}

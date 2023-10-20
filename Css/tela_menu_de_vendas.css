@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -38,11 +40,13 @@ header {
     display: flex;
     justify-content: center;
     font-weight: bold;
+    font-family: 'Noticia Text', serif;
+    margin-top: 2rem;
 }
 
 h1 {
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: 'Mitr', sans-serif;
 }
 
 main {
@@ -103,4 +107,5 @@ ul{
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
+    font-family: 'Noticia Text', serif;
 }

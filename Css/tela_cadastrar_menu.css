@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -64,6 +66,7 @@ section {
 
 label {
     font-size: 1.2rem;
+    font-family: 'Noticia Text', serif;
 }
 
 .digitar {
@@ -76,15 +79,17 @@ label {
 .cadastrar {
     width: 80%;
     height: 7%;
+    font-family: 'Noticia Text', serif;
 }
 
 h1 {
     font-size: 2rem;
-    font-family: sans-serif;
 }
 
 .subtitulo {
     font-weight: bold;
+    font-family: 'Noticia Text', serif;
+    margin-top: 2rem;
 }
 
 footer {
@@ -103,4 +108,8 @@ footer {
 .rodape {
     width: 3rem;
     height: 3rem;
+}
+
+.titulo {
+    font-family: 'Mitr', sans-serif;
 }

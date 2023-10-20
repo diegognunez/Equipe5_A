@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -64,7 +66,7 @@ footer {
 
 h1 {
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: 'Mitr', sans-serif;
 }
 
 form {
@@ -98,10 +100,14 @@ input[type= submit]{
 
 .Ganhos{
     background-color: rgb(129, 250, 108);
+    font-family: 'Noticia Text', serif;
+    font-size: 1.2rem;
 }
 
 .Gastos{
     background-color: rgb(255, 74, 74);
+    font-family: 'Noticia Text', serif;
+    font-size: 1.2rem;
 }
 
 li {
@@ -115,6 +121,7 @@ li {
 
 label {
     font-size: 1.2rem;
+    font-family: 'Noticia Text', serif;
 }
 
 .digitar {
@@ -132,6 +139,7 @@ label {
 }
 
 .subtitulo {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     font-weight: bold;
+    font-family: 'Noticia Text', serif;
 }

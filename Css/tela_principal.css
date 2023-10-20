@@ -41,13 +41,11 @@ header {
     display: flex;
     justify-content: center;
     font-weight: bold;
-
+    font-family: 'Noticia Text', serif;
 }
 
 h1 {
     font-size: 2rem;
-    font-family: 'Mitr', sans-serif;
-    font-family: sans-serif;
 }
 
 footer {
@@ -101,4 +99,8 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.Titulo {
+    font-family: 'Mitr', sans-serif;
 }
