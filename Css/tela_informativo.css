@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
 html, body {
     margin: 0;
     padding: 0;
@@ -54,6 +55,7 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    font-family: 'Noticia Text', serif;
 }
 
 .search {
