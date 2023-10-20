@@ -54,7 +54,7 @@ form {
     justify-content: center;
 }
 
-section {
+ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
