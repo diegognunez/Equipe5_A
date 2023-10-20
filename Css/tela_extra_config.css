@@ -11,6 +11,7 @@ body {
     display: flex;
     width: 100%;
     flex-direction: column;
+    background-color:  rgb(255, 229, 188);
 }
 
 main {
@@ -82,12 +83,7 @@ h1  {
     font-size: 2rem;
     font-family: sans-serif;
 }
-<<<<<<< HEAD
-.subtitulo{
-=======
-
 .subtitulo {
     font-family: 'Noticia Text', serif;
->>>>>>> 8fba0d82cecf0548acfd69c08cccb5c6732162fa
     font-weight: bold;
 }
