@@ -48,20 +48,13 @@ h1 {
     font-weight: bold;
 }
 
-section {
+ul {
     display: flex;
     height: 35%;
     width: 80%;
-    justify-content: center;
-    align-items: center;
-}
-
-ul {
-    display: flex;
-    height: 100%;
-    width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 li {
