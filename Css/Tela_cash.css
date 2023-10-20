@@ -45,7 +45,7 @@ main {
 .subtitulo{
     display: flex;
     justify-content: center;
-    text-decoration: underline .1rem;
+    font-weight: bold;
     font-size: 2rem;
     justify-content: space-between;
 }

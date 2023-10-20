@@ -37,7 +37,7 @@ header {
     padding: 2rem;
     display: flex;
     justify-content: center;
-    text-decoration: underline .1rem;
+    font-weight: bold;
 }
 
 

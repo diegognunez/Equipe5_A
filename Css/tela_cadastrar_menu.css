@@ -83,7 +83,7 @@ h1 {
 }
 
 .subtitulo {
-    text-decoration: underline .1rem;
+    font-weight: bold;
 }
 
 footer {
