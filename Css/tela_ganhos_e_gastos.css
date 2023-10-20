@@ -73,6 +73,7 @@ form {
     height: 60%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 ul {
@@ -112,4 +113,8 @@ label {
     top: 3%;
     height: 3rem;
     width: 3rem;
+}
+
+.subtitulo {
+    margin-top: 2rem;
 }
