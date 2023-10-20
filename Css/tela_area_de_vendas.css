@@ -50,8 +50,8 @@ main {
 .titulo{
     display: flex;
     justify-content: center;
-    text-decoration: underline .1rem;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 ul {
