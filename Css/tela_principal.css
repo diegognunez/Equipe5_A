@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -64,6 +66,7 @@ l{
     font-size: 1.5rem;
     align-self: start;
     padding-left: 2rem;
+    font-family: 'Noticia Text', serif;
 }
 
 .rodape {
