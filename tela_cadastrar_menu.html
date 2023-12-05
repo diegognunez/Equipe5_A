@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/tela_cadastrar_menu.css">
+        <script src="js/cadastrarmenu.js"></script>
     </head>
     <body>
         <header>
@@ -28,15 +29,18 @@
             
             <h2>
                 <label for="preco">Preço (R$):</label>
-                <input type="number" id="preco" name="preco" class="digitar"><br><br>
+                <input type="number" id="preco" name="preco" class="digitar" onblur="verificarValor('preco')"><br><br>
             </h2>
             
             <h2>
                 <label for="lucroitem">Lucro por venda (R$):</label>
-                <input type="number" id="lucroitem" name="idade" class="digitar"><br><br>
+                <input type="number" id="lucroitem" name="lucroitem" class="digitar" onblur="verificarValor('lucroitem')"><br><br>
             </h2>
 
-            <input type="submit" value="Cadastrar" class="cadastrar">
+            <div id="avisoOverlay" class="aviso-overlay">
+                <div id="avisoBox" class="aviso-box"></div>
+            </div>
+            <input type="submit" value="Cadastrar" class="cadastrar" onclick="verificarInputs()">
         </main>
 
         <footer>
