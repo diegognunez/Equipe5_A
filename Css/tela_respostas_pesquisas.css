@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -113,7 +115,6 @@ ol {
     border-radius: 1rem;
     border: .1rem solid black;
     font-size: 1.1rem;
-    font-family: 'Noticia Text', serif;
     text-align: center;
 }
 
@@ -124,4 +125,8 @@ ol {
     top: 3%;
     height: 3rem;
     width: 3rem;
+}
+
+li {
+    font-family: 'Noticia Text', serif;
 }
