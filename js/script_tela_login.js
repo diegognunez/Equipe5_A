@@ -17,18 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
     usuarioInput.addEventListener('input', atualizarEstadoDoBotao);
     senhaInput.addEventListener('input', atualizarEstadoDoBotao);
 
-    function before() {
-        loading.classList.remove('hidden');
-    }
-
     botaoPronto.addEventListener('click', function(event) {
         if (botaoPronto.style.opacity === '0.5') {
             event.preventDefault();
-        } else {
-            before();
-            setTimeout(function() {
-                window.location.href = "tela_principal.html";
-            }, 1500);
         }
     });
 
@@ -36,4 +27,25 @@ document.addEventListener('DOMContentLoaded', function() {
     botaoPronto.style.pointerEvents = 'none';
 
     atualizarEstadoDoBotao();
+
+
+
+    function before() {
+        loading = document.querySelector('.loading')
+        loading.classList.remove('hidden')
+    }
+
+    pronto = document.querySelector('.pronto')
+
+    pronto.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        before();
+
+        setTimeout(function() {
+            window.location.href = "tela_principal.html";
+        }, 1500);
+    });
+
+
 });
