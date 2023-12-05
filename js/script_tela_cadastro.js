@@ -1,20 +1,31 @@
 document.addEventListener('DOMContentLoaded', function() {
+    emailInput = document.getElementById('email');
+    usuarioCadastroInput = document.getElementById('usuarioCadastro');
+    senhaCadastroInput = document.getElementById('senhaCadastro');
+    botaoProntoCadastro = document.getElementById('botaoProntoCadastro');
 
-    function before() {
-        loading = document.querySelector('.loading')
-        loading.classList.remove('hidden')
+    function atualizarEstadoDoBotaoCadastro() {
+        if (emailInput.value && usuarioCadastroInput.value && senhaCadastroInput.value) {
+            botaoProntoCadastro.style.opacity = '1';
+            botaoProntoCadastro.style.pointerEvents = 'auto';
+        } else {
+            botaoProntoCadastro.style.opacity = '0.5';
+            botaoProntoCadastro.style.pointerEvents = 'none';
+        }
     }
 
-    pronto = document.querySelector('.pronto')
+    emailInput.addEventListener('input', atualizarEstadoDoBotaoCadastro);
+    usuarioCadastroInput.addEventListener('input', atualizarEstadoDoBotaoCadastro);
+    senhaCadastroInput.addEventListener('input', atualizarEstadoDoBotaoCadastro);
 
-    pronto.addEventListener('click', function(event) {
-        event.preventDefault();
-        
-        before()
+    botaoProntoCadastro.addEventListener('click', function(event) {
+        if (botaoProntoCadastro.style.opacity === '0.5') {
+            event.preventDefault();
+        }
+    });
 
-        setTimeout(function() {
-            window.location.href = "tela_principal.html";
-        }, 1500);
-    })
+    botaoProntoCadastro.style.opacity = '0.5';
+    botaoProntoCadastro.style.pointerEvents = 'none';
 
-})
+    atualizarEstadoDoBotaoCadastro();
+});
