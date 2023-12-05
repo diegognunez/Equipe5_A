@@ -94,3 +94,11 @@ input:focus::placeholder {
     background-color:rgb(129, 250, 108);
     font-family: 'Noticia Text', serif;
 }
+
+.loading {
+    position: fixed;
+}
+
+.hidden {
+    display: none;
+}
