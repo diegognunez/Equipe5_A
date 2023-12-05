@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 110%;
     min-height: 100%;
 }
 
 body {
     display: flex;
+    position: relative;
+    top: 4rem;
     width: 100%;
     flex-direction: column;
     background-color:  rgb(255, 229, 188);
@@ -16,12 +20,14 @@ header {
     background-color:rgb(169, 231, 169); 
     display: flex;
     height: 4rem;
-    position: relative;
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     justify-content: center;
     align-items: center;
     border-bottom: .1rem solid black;
+    z-index: 1;
 }
 
 .usuario {
@@ -42,6 +48,9 @@ header {
     font-weight: bold;
     font-size: 1.5rem;
     width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Noticia Text', serif;
 }
 
 
@@ -49,10 +58,10 @@ main {
     display: flex;
     position: relative;
     flex-grow: 1;
-    padding-bottom: 4rem;
+    padding-bottom: .5rem;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
+    z-index: 0;
 }
 
 h1 {
@@ -105,7 +114,8 @@ ol {
     height: 25%;
     border-radius: 1rem;
     border: .1rem solid black;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 .voltar {
@@ -115,4 +125,8 @@ ol {
     top: 3%;
     height: 3rem;
     width: 3rem;
+}
+
+li {
+    font-family: 'Noticia Text', serif;
 }
