@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/tela_ganhos_e_gastos.css">
+        <script src="js/ganhos_gastos.js"></script>
     </head>
     <body>
         <header>
@@ -21,7 +22,7 @@
                 Ganhos e Gastos:
             </h1>
 
-            <form class="meio">
+            <form id="finance-form" class="meio">
                 <ul>
                 <li><label for="valor">Valor (R$):</label>
                 <input class="digitar" type="number" id="valor" name="valor"></li>
@@ -34,8 +35,7 @@
                     <li><input class="Ganhos" type="submit" value="Ganho"></li>
                     <li><input class="Gastos" type="submit" value="Gasto"></li>        
                 </ul>
-
-            </form>
+                <div id="aviso" class="aviso" style="display: none;"></div>            </form>
         </main>
 
         <footer>
