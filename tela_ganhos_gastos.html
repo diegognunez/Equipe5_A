@@ -22,7 +22,7 @@
                 Ganhos e Gastos:
             </h1>
 
-            <form id="finance-form" class="meio">
+            <form id="formGanhosGastos" class="meio">
                 <ul>
                 <li><label for="valor">Valor (R$):</label>
                 <input class="digitar" type="number" id="valor" name="valor"></li>
@@ -31,11 +31,13 @@
                 <li><label for="descricao">Descrição:</label>
                 <input class="digitar" type="text" id="descricao" name="descricao"></li>
                 </ul>
-                <ul class="especie">
-                    <li><input class="Ganhos" type="submit" value="Ganho"></li>
-                    <li><input class="Gastos" type="submit" value="Gasto"></li>        
+                <ul>
+                    <li>
+                        <input class="Ganhos" type="button" value="Ganho">
+                        <input class="Gastos" type="button" value="Gasto">        
+                    </li>  
                 </ul>
-                <div id="aviso" class="aviso" style="display: none;"></div>            </form>
+            </form>
         </main>
 
         <footer>
